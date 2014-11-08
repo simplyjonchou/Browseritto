@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B6ACC661A0ED8C400317508 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6ACC651A0ED8C400317508 /* FavoritesViewController.m */; };
 		7BB2D97A1A0C43CF00BC6F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2D9791A0C43CF00BC6F49 /* main.m */; };
 		7BB2D97D1A0C43CF00BC6F49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2D97C1A0C43CF00BC6F49 /* AppDelegate.m */; };
 		7BB2D9801A0C43CF00BC6F49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2D97F1A0C43CF00BC6F49 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		7BB2D9851A0C43CF00BC6F49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB2D9841A0C43CF00BC6F49 /* Images.xcassets */; };
 		7BB2D9881A0C43CF00BC6F49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB2D9861A0C43CF00BC6F49 /* LaunchScreen.xib */; };
 		7BB2D9941A0C43CF00BC6F49 /* BrowserittoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2D9931A0C43CF00BC6F49 /* BrowserittoTests.m */; };
+		7BB2D99F1A0C4CC300BC6F49 /* InstagramCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2D99E1A0C4CC300BC6F49 /* InstagramCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B6ACC641A0ED8C400317508 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		7B6ACC651A0ED8C400317508 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 		7BB2D9741A0C43CF00BC6F49 /* Browseritto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Browseritto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB2D9781A0C43CF00BC6F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BB2D9791A0C43CF00BC6F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		7BB2D98D1A0C43CF00BC6F49 /* BrowserittoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowserittoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB2D9921A0C43CF00BC6F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BB2D9931A0C43CF00BC6F49 /* BrowserittoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserittoTests.m; sourceTree = "<group>"; };
+		7BB2D99D1A0C4CC300BC6F49 /* InstagramCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramCollectionViewCell.h; sourceTree = "<group>"; };
+		7BB2D99E1A0C4CC300BC6F49 /* InstagramCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				7BB2D97C1A0C43CF00BC6F49 /* AppDelegate.m */,
 				7BB2D97E1A0C43CF00BC6F49 /* ViewController.h */,
 				7BB2D97F1A0C43CF00BC6F49 /* ViewController.m */,
+				7B6ACC641A0ED8C400317508 /* FavoritesViewController.h */,
+				7B6ACC651A0ED8C400317508 /* FavoritesViewController.m */,
+				7BB2D99D1A0C4CC300BC6F49 /* InstagramCollectionViewCell.h */,
+				7BB2D99E1A0C4CC300BC6F49 /* InstagramCollectionViewCell.m */,
 				7BB2D9811A0C43CF00BC6F49 /* Main.storyboard */,
 				7BB2D9841A0C43CF00BC6F49 /* Images.xcassets */,
 				7BB2D9861A0C43CF00BC6F49 /* LaunchScreen.xib */,
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6ACC661A0ED8C400317508 /* FavoritesViewController.m in Sources */,
 				7BB2D9801A0C43CF00BC6F49 /* ViewController.m in Sources */,
+				7BB2D99F1A0C4CC300BC6F49 /* InstagramCollectionViewCell.m in Sources */,
 				7BB2D97D1A0C43CF00BC6F49 /* AppDelegate.m in Sources */,
 				7BB2D97A1A0C43CF00BC6F49 /* main.m in Sources */,
 			);
@@ -414,6 +426,7 @@
 				7BB2D9991A0C43CF00BC6F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BB2D99A1A0C43CF00BC6F49 /* Build configuration list for PBXNativeTarget "BrowserittoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +435,7 @@
 				7BB2D99C1A0C43CF00BC6F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
